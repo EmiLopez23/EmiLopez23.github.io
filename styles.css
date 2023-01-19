@@ -28,6 +28,11 @@ body{
     box-shadow: 11px 5px 55px rgba(0, 0, 0,0.2);
 }
 
+a {
+    text-decoration: none;
+    color: white;
+}
+
 .container .left-side{
     position: relative;
     background-color: #003d74;
@@ -186,7 +191,6 @@ body{
 }
 
 .job-description a{
-    text-decoration: none;
     color: black;
 }
 
@@ -213,7 +217,10 @@ body{
 .dark-theme .container .left-side{
     background-color: #232526;
     color: #c5c5c5;
+}
 
+.dark-theme .container .left-side a{
+    color: #c5c5c5;
 }
 
 .dark-theme .contact .contact-icon,
